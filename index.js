@@ -1,4 +1,8 @@
 const name = "Nikki Zareen";
+const name2 = "Alex Cameron"
+let name3 = "Harry Crane"
+let counter = 0
+
 
 const intList = Object.freeze([
   1,
