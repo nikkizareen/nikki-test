@@ -69,7 +69,8 @@ console.log(uppercase("hello"))
 
 // challange 0.3
 // write a function which returns a string in all lowercase letters
-
+const lowercase = (x) =>x.toLocaleLowerCase()
+console.log(lowercase("UPPERCASE TO LOWERCASE"))
 // challange 0.4
 // write a function which returns a string in reverse
 
