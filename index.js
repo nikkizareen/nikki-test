@@ -53,9 +53,19 @@ const books = Object.freeze({
 
 // challange 0.1
 // write a function which returns the length of a string
+const len = (str) => str.length
+console.log(len("hdkyjvjchmc"))
+
+
+
 
 // challange 0.2
 // write a fucntion which returns a string in all upercase letters
+
+const uppercase = (s) => s.toUpperCase()
+
+console.log(uppercase("hello"))
+
 
 // challange 0.3
 // write a function which returns a string in all lowercase letters
