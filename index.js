@@ -54,7 +54,7 @@ const books = Object.freeze({
 // challange 0.1
 // write a function which returns the length of a string
 const len = (str) => str.length
-console.log(len("hdkyjvjchmc"))
+// console.log(len("hdkyjvjchmc"))
 
 
 
@@ -64,15 +64,39 @@ console.log(len("hdkyjvjchmc"))
 
 const uppercase = (s) => s.toUpperCase()
 
-console.log(uppercase("hello"))
+// console.log(uppercase("hello"))
 
 
 // challange 0.3
 // write a function which returns a string in all lowercase letters
 const lowercase = (x) =>x.toLocaleLowerCase()
-console.log(lowercase("UPPERCASE TO LOWERCASE"))
+// console.log(lowercase("UPPERCASE TO LOWERCASE"))
+
+
+
 // challange 0.4
 // write a function which returns a string in reverse
+const rev = (str) => {
+  // declaring a constant variable equal to the length of `str` which has been passed into the function
+  const stringLength = str.length
+  
+  // declaring a mutable variable newString
+  let newString = ''
+  
+  // starting from the length of str and decrementing down to zero
+  // in the process we're slowly looking at each character in str from back to front
+  for (let i = stringLength; i >= 0 ; i--) {
+    newString += str.charAt(i)
+  }
+  
+  return newString
+}
+
+console.log(
+  rev(name)
+)
+
+
 
 // challange 0.5
 // write a function which removes the last n letters of a string
